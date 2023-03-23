@@ -118,14 +118,19 @@ position: absolute;
 #left-about {
     padding-top: 100px;
     padding-left: 75px;
-    padding-right: 100px;
     float:left;
 }
 
 #right-about {
-    padding-top: 30px;
+    padding-top: 100px;
     padding-right: 50px;
     float: right;
+    width:650px
+    
+}
+
+#right-about p{
+    overflow:hidden;
 }
 
 #left-about h6 {
