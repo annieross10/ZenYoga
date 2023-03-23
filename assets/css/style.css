@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Poppins:wght@100;200;600&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +9,8 @@
 body{
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    background-color: beige;
-    color: rgba(78, 30, 8, 0.856)
+    background-color: rgb(236, 233, 219);
+    color: rgba(48, 20, 6, 0.904)
 
 }
 
@@ -19,23 +19,21 @@ body{
 #logo{
     float: left;
     font-size: 400%;
-    color:rgba(151, 74, 22, 0.555);
+    color:rgba(44, 22, 7, 0.692);
     letter-spacing: 4px;
     font-weight: 300;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     text-transform: uppercase;
-    font-weight:400;
-    padding-top: 10px;
 
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 120px;
 }
 
 #menu li {
@@ -56,8 +54,90 @@ body{
 
 /* Yoga image */
 
+#cover-text, #cover-text h2{
+    color:rgb(247, 242, 239);
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 160%;
+    font-weight: 200;
+    
+}
+
+#cover-text {
+   width: 100%;
+    height:90px;
+
+    padding-top: 20px;
+    padding-left: 40px;
+    
+    bottom: 30px;
+left: 0px;
+background-color: rgba(58, 45, 8, 0.541);
+animation-name: cover-text-slide;
+animation-duration: 2s;
+position: absolute;
+
+
+
+}
+
 #yogaimage {
-    height: 600px;
+    height: 900px;
     width: 100%;
-    background: url('../images/yoga1.webp') no-repeat;
+    background: url('../images/yoga1.webp') no-repeat center center;
+    position: relative;
+
+}
+
+#yogaouter {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes cover-text-slide {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* about */
+
+#about {
+    height:600px;
+    padding-left: 50px;
+
+}
+
+#left-about {
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-right: 100px;
+    float:left;
+}
+
+#right-about {
+    padding-top: 30px;
+    padding-right: 50px;
+    float: right;
+}
+
+#left-about h6 {
+    font-size: 160%;
+}
+
+#left-about h3 {
+    font-weight: 200;
+    font-size:250%;
+}
+
+#left-about h4 {
+    font-weight: 600;
+    font-size: 180%
 }
