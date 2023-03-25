@@ -10,7 +10,8 @@ body{
     font-family: Poppins, sans-serif;
     font-weight: 300;
     background-color: rgb(236, 233, 219);
-    color: rgba(48, 20, 6, 0.904)
+    color: rgba(48, 20, 6, 0.904);
+    
 
 }
 
@@ -64,17 +65,18 @@ body{
 }
 
 #cover-text {
-   width: 100%;
-    height:90px;
+   
+    height: 90px;;
+    width: 100%;
 
     padding-top: 20px;
     padding-left:20px;
-    bottom: 30px;
-left: 0px;
-background-color: rgba(58, 45, 8, 0.541);
-animation-name: cover-text-slide;
-animation-duration: 2s;
-position: absolute;
+    bottom: 0px;
+
+    background-color: rgba(58, 45, 8, 0.541);
+    animation-name: cover-text-slide;
+    animation-duration: 2s;
+    position: absolute;
 
 
 
@@ -84,7 +86,7 @@ position: absolute;
     height: 900px;
     width: 100%;
     background: url('../images/yoga1.webp') no-repeat center center;
-    position: relative;
+    position: absolute;
 
 }
 
@@ -94,16 +96,17 @@ position: absolute;
     overflow: hidden;
 }
 
-@keyframes cover-text-slide {
-  from {
-    margin-left: -100%;
-    width: 300%; 
-  }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+@keyframes cover-text-slide {
+    from {
+      margin-left: -100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 
 /* about */
@@ -189,8 +192,13 @@ position: absolute;
 
 /* Yoga Timetable */
 
+#timetable {
+    height:580px;
+    position:relative
+}
+
 #table {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 25px;
     padding-left: 25px;
@@ -209,7 +217,7 @@ th {
 
 
 
-tr td {table-layout: fixed;
+tr td {table-layout: relative;
     width:150px;
     height:100px;
 }
@@ -225,3 +233,36 @@ td, th {
     border-width: 1px;
    }
 
+
+/* contact us */
+#yogaouterthree {
+    height: 600px;
+    width: 130%;
+    overflow:hidden;
+    margin: 0;
+}
+
+#yogaimagethree {
+    height: 520px;
+    width: 1300px;
+    margin:0;
+    float:left;
+    background: url('../images/yoga5.jpeg') no-repeat center center;
+    position: absolute;
+    background-size: 100%;
+
+}
+
+    
+   /* footer */
+
+
+
+   footer {
+    height:150px;
+    width:100%;
+
+   
+   }
+    
+   
