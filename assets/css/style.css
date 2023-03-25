@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Poppins:wght@100;200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -124,13 +124,14 @@ position: absolute;
 }
 
 #right-about {
-    padding-top: 80px;
+    padding-top: 60px;
     float: right;
     width: 60%
 }
 
 #right-about p{
     overflow:hidden;
+    margin-top: 10px;
 }
 
 #left-about h6 {
@@ -166,12 +167,12 @@ position: absolute;
 /* Yoga Classes */
 
 #yogaclasses {
-    height:350px;
+    height:250px;
     padding-left: 50px;
     padding-top: 40px;
     padding-right: 50px;
     width:650px
-    margin: 0 auto;
+    margin 0 auto;
     text-align: center;
 }
 
@@ -185,3 +186,42 @@ position: absolute;
     font-size: 120%;
     padding-top:50px;
 }
+
+/* Yoga Timetable */
+
+#table {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display:grid;
+    border-collapse: collapse;
+    border: double;
+}
+
+th {
+    font-size: 120%;
+    color:white;
+    background-color: rgba(44, 22, 7, 0.692);
+}
+
+
+
+tr td {table-layout: fixed;
+    width:150px;
+    height:100px;
+}
+
+td {
+    font-weight: 400;
+    font-size:80%;
+    background-color: white;
+
+}
+td, th {
+    border: solid;
+    border-width: 1px;
+   }
+
