@@ -374,4 +374,14 @@ input[name="submit"]{
    
    }
     
-   
+   #facebook {
+    float:right
+   }
+
+   #twitter {
+    float:left
+   }
+
+   #instagram {
+    margin: 0 auto
+   }
