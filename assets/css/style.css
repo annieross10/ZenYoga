@@ -6,10 +6,11 @@
     border: none;
 }
 
+
 body{
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    background-color: rgb(236, 233, 219);
+    background-color: rgb(241, 239, 229);
     color: rgba(48, 20, 6, 0.904);
     
 
@@ -17,9 +18,10 @@ body{
 
 /* headings and logo */
 
+
 #logo{
     float: left;
-    font-size: 400%;
+    font-size: 350%;
     color:rgba(44, 22, 7, 0.692);
     letter-spacing: 4px;
     font-weight: 300;
@@ -34,7 +36,7 @@ body{
 }
 
 #menu, #logo {
-    line-height: 120px;
+    line-height: 90px;
 }
 
 #menu li {
@@ -151,6 +153,11 @@ body{
     font-size: 180%
 }
 
+#left-about h5 {
+    padding-top: 10px;
+    font-size: 90%;
+}
+
 /* Yoga image */
 
 #yogaimagetwo {
@@ -193,12 +200,12 @@ body{
 /* Yoga Timetable */
 
 #timetable {
-    height:580px;
+    height:520px;
     position:relative
 }
 
 #table {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding-top: 25px;
     padding-left: 25px;
@@ -234,7 +241,7 @@ td, th {
    }
 
 
-/* contact us */
+/* Yoga picture 3 */
 #yogaouterthree {
     height: 600px;
     width: 130%;
@@ -243,8 +250,8 @@ td, th {
 }
 
 #yogaimagethree {
-    height: 520px;
-    width: 1300px;
+    height: 555px;
+    width: 100%;
     margin:0;
     float:left;
     background: url('../images/yoga5.jpeg') no-repeat center center;
@@ -253,7 +260,109 @@ td, th {
 
 }
 
+/* Yoga Styles */
+
+
+#yogastyles {
+    height:530px;
+    width: 85%;
+    padding-left:80px;
+    padding-right:20px;
     
+
+}
+
+#yogastyles hr {
+    border-top: 1px solid rgb(39, 19, 3);
+  }
+
+#beginners h1{
+    font-weight: 400;
+    padding-top: 30px;
+
+}
+
+#vinyasa h1{
+    font-weight: 400;
+    padding-top:30px;
+}
+
+#power-yoga h1 {
+    font-weight:400;
+    padding-top:30px;
+}
+
+
+
+/* Sign up */
+
+#signuptoday {background-color: rgba(44, 22, 7, 0.692);
+    height: 500px;
+    width: 100%
+
+}
+
+#signup{
+    float:left;
+    padding-top: 40px;
+    padding-left: 40px;
+    color:white;
+    text-align: left;
+    width: 45%;
+    
+}
+
+#signup h1 {
+    font-weight: 200;
+    font-size: 45px
+}
+
+#signup h3 {
+    font-size: 20px;
+    font-weight:200;
+}
+label {
+    width:100px;
+    display:inline-block
+}
+
+form {
+    font-size: 20px;
+    padding-top:60px;
+}
+
+input[name="name"] {
+    height:30px;
+    width:250px;
+    
+    
+}
+
+input[name="email"] {
+    height:30px;
+    width:250px;
+}
+
+input[name="submit"]{
+    height:30px;
+    width:60px;
+    text-transform: uppercase;
+}
+    
+#yogaimagefour {
+    width: 45%;
+    height: 85%;
+    margin: 40px;
+    background: url("../images/yoga6.jpeg") center center no-repeat;
+    position:relative;
+    float:right;
+    background-size: contain;
+
+
+
+
+}
+
    /* footer */
 
 
