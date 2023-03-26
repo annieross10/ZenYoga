@@ -378,6 +378,11 @@ input[name="submit"]{
     #yogaimagetwo {
         position:relative;
     }
+    #clickhere {
+        clear:none;
+        display:inline
+
+    }
 
     #yogastyles {
         height:600px;
@@ -472,11 +477,18 @@ input[name="submit"]{
     #table {
         width:90%;
         height:90%;
-        padding-left: 10px;
-        padding-bottom:40px;
+        padding-left: 20px;
+        padding-bottom:10px;
         float:left;
         border:none;
         clear:none;
+    }
+
+    #clickhere {
+        padding:0;
+        width:100%;
+        float:left
+
     }
 
     #yogaimagethree {
@@ -498,7 +510,7 @@ input[name="submit"]{
         
     }
     #signuptoday {
-        width:140%;
+        width:180%;
         height:800px;
         font-size: 80%;
 
