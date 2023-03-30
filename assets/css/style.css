@@ -357,7 +357,7 @@ input[name="submit"]{
 
 /* Media Queries */
 
-/* for larger or meduim size from 1200px*/
+/* for larger or meduim size from 1000px*/
 @media screen and (max-width:1000px) {
     #about {
         width:80%;
@@ -374,6 +374,10 @@ input[name="submit"]{
         position:relative;
     }
 
+    #cover-text {
+        position:absolute
+    }
+
     #clickhere {
         clear:none;
         display:inline;
@@ -387,11 +391,18 @@ input[name="submit"]{
     #yogaimagethree {
         clear:none;
         height:540px;
+        position:absolute;
     }
 
     #yogaouterthree {
         clear:none;
-        height:500px;
+        height:540px;
+        padding-bottom: 50px;
+        
+    }
+    #cover-text-two {
+        font-size: 100%;
+        position:absolute;
     }
 
     #signuptoday {
@@ -411,7 +422,7 @@ input[name="submit"]{
 }
 
 /* for medium screens from 950px and down*/
-@media screen and (max-width:900px) {
+@media screen and (max-width:950px) {
     #menu {
         float: left;
         clear:both;
@@ -479,7 +490,7 @@ input[name="submit"]{
         height:100%;
         padding:0;
         margin:0 auto; 
-        position:absolute  
+        position:absolute; 
     }
 
     #yogaouterthree {
