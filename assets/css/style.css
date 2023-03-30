@@ -359,6 +359,7 @@ input[name="submit"]{
 
 /* for larger or meduim size from 1000px*/
 @media screen and (max-width:1000px) {
+    
     #about {
         width:80%;
         height:650px;
@@ -390,14 +391,18 @@ input[name="submit"]{
 
     #yogaimagethree {
         clear:none;
+        padding:0;
+        margin: 0 auto;
         height:540px;
         position:absolute;
     }
 
     #yogaouterthree {
         clear:none;
+        padding:0;
+        margin: 0 auto;
         height:540px;
-        padding-bottom: 50px;
+        padding-bottom:70px;
         
     }
     #cover-text-two {
