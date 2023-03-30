@@ -429,8 +429,7 @@ input[name="submit"]{
 
     #cover-text {
         clear:both;
-        margin:0 auto;
-        font-size: 100%;
+        margin-bottom:40px;
         position:absolute;
         height:50px;
         width:100%;
@@ -441,7 +440,8 @@ input[name="submit"]{
         width:90%;
         height:800px;
         padding-top:80px;
-        position:relative;
+        position:relative
+
     }
 
     #yogaclasses {
