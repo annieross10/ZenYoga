@@ -358,7 +358,7 @@ input[name="submit"]{
 /* Media Queries */
 
 /* for larger or meduim size from 1200px*/
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     #about {
         width:80%;
         height:650px;
@@ -411,7 +411,7 @@ input[name="submit"]{
 }
 
 /* for medium screens from 950px and down*/
-@media screen and (max-width:950px) {
+@media screen and (max-width:900px) {
     #menu {
         float: left;
         clear:both;
