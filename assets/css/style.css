@@ -12,12 +12,11 @@ body{
     font-weight: 300;
     background-color: rgb(241, 239, 229);
     color: rgba(48, 20, 6, 0.904);
-    
-
+    width:100%;
+    margin: 0 auto;
 }
 
 /* headings and logo */
-
 
 #logo{
     float: left;
@@ -32,7 +31,6 @@ body{
     font-size: 110%;
     letter-spacing: 4px;
     text-transform: uppercase;
-
 }
 
 #menu, #logo {
@@ -42,8 +40,7 @@ body{
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-   
+    margin-right: 30px;  
 }
 
 #menu a {
@@ -62,12 +59,10 @@ body{
     text-transform: uppercase;
     font-family: Poppins;
     font-size: 160%;
-    font-weight: 200;
-    
+    font-weight: 200;   
 }
 
-#cover-text {
-   
+#cover-text { 
     height: 90px;;
     width: 100%;
 
@@ -79,17 +74,14 @@ body{
     animation-name: cover-text-slide;
     animation-duration: 2s;
     position: absolute;
-
-
-
 }
 
 #yogaimage {
     height: 900px;
     width: 100%;
     background: url('../images/yoga1.webp') no-repeat center center;
-    position: absolute;
-
+    background-size:100%;
+    position: relative;
 }
 
 #yogaouter {
@@ -97,7 +89,6 @@ body{
     width: 100%;
     overflow: hidden;
 }
-
 
 @keyframes cover-text-slide {
     from {
@@ -114,11 +105,10 @@ body{
 /* about */
 
 #about {
-    height:380px;
+    height: 380px;
     margin: 20px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 #left-about {
@@ -181,8 +171,7 @@ body{
     padding-left: 50px;
     padding-top: 40px;
     padding-right: 50px;
-    width:650px
-    margin 0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -222,8 +211,6 @@ th {
     background-color: rgba(44, 22, 7, 0.692);
 }
 
-
-
 tr td {table-layout: relative;
     width:150px;
     height:100px;
@@ -233,13 +220,12 @@ td {
     font-weight: 400;
     font-size:80%;
     background-color: white;
-
 }
+
 td, th {
     border: solid;
     border-width: 1px;
-   }
-
+}
 
 /* Yoga picture 3 */
 #yogaouterthree {
@@ -257,29 +243,24 @@ td, th {
     background: url('../images/yoga5.jpeg') no-repeat center center;
     position: absolute;
     background-size: 100%;
-
 }
 
 /* Yoga Styles */
-
 
 #yogastyles {
     height:530px;
     width: 85%;
     padding-left:80px;
     padding-right:20px;
-    
-
 }
 
 #yogastyles hr {
     border-top: 1px solid rgb(39, 19, 3);
-  }
+}
 
 #beginners h1{
     font-weight: 400;
     padding-top: 30px;
-
 }
 
 #vinyasa h1{
@@ -293,13 +274,11 @@ td, th {
 }
 
 
-
 /* Sign up */
 
 #signuptoday {background-color: rgba(44, 22, 7, 0.692);
     height: 500px;
     width: 100%
-
 }
 
 #signup{
@@ -308,8 +287,7 @@ td, th {
     padding-left: 40px;
     color:white;
     text-align: left;
-    width: 45%;
-    
+    width: 45%;   
 }
 
 #signup h1 {
@@ -321,6 +299,7 @@ td, th {
     font-size: 20px;
     font-weight:200;
 }
+
 label {
     width:100px;
     display:inline-block
@@ -333,9 +312,7 @@ form {
 
 input[name="name"] {
     height:30px;
-    width:250px;
-    
-    
+    width:250px;  
 }
 
 input[name="email"] {
@@ -357,13 +334,12 @@ input[name="submit"]{
     position:relative;
     float:right;
     background-size: contain;
-
 }
 
-   /* Media Queries */
+/* Media Queries */
 
-   /* for larger or meduim size from 1200px*/
-   @media screen and (max-width:1200px) {
+/* for larger or meduim size from 1200px*/
+@media screen and (max-width:1200px) {
     #about {
         width:80%;
         height:650px;
@@ -372,70 +348,58 @@ input[name="submit"]{
 
     #left-about, #right-about {
         width:100%;
-        float:left;
-    
+        float:left;   
     }
+
     #yogaimagetwo {
         position:relative;
     }
+
     #clickhere {
         clear:none;
         display:inline
-
     }
 
     #yogastyles {
         height:600px;
-        padding-top:50px;
-        
+        padding-top:50px;  
     }
-
 
     #yogaimagethree {
         clear:none;
         height:540px;
-        
-        
-
     }
 
     #yogaouterthree {
         clear:none;
         height:500px;
-;
-
-
-
     }
-
-
-
 
     #signuptoday {
         width:100%;
         height:700px;
-
     }
+
     #signup {
         width:30%
     }
+    
     #yogaimagefour {
-        
         width:50%;
         overflow:hidden;
         padding:0;
-   
     }
-   }
-   /* for medium screens from 950px and down*/
-   @media screen and (max-width:950px) {
+}
+
+/* for medium screens from 950px and down*/
+@media screen and (max-width:950px) {
     #menu {
         float: left;
         clear:both;
         display: inline;
         text-align: center;
-
     }
+
     #yogaouter {
         height:600px
     }
@@ -448,15 +412,12 @@ input[name="submit"]{
         clear:both;
         margin:0 auto;
         font-size: 100%;
-
     }
     
     #about {
         width:90%;
         height:800px;
         padding:0;
-
-
     }
 
     #yogaclasses {
@@ -470,9 +431,7 @@ input[name="submit"]{
         padding:0;
         width: 100%;
         height:100%;
-    
     }
-
 
     #table {
         width:90%;
@@ -488,72 +447,55 @@ input[name="submit"]{
         padding:0;
         width:100%;
         float:left
-
     }
 
     #yogaimagethree {
         clear:none;
         height:520px;
         padding:0;
-        margin:0 auto;
-        
+        margin:0 auto;   
     }
+
     #yogaouterthree {
-        height:400px;
-    
+        height:400px;  
     }
 
     #yogastyles {
         height:850px;
         width: 90%;
-        padding-left:10px;
-        
+        padding-left:10px;     
     }
+
     #signuptoday {
         width:180%;
         height:800px;
         font-size: 80%;
-
     }
+
     #yogaimagefour {
         display:none
-   
     }
-    }
+}
    
+/* footer */
 
-
-
-   /* footer */
-
-
-
-   footer {
+footer {
     height:120px;
     padding:5px
-   }
+}
 
-
-
-  
-   #social-networks {
-
+#social-networks {
     text-align: center;
     list-style-type: none;
     width:100%
-   }
+}
 
-   #social-networks > li {
+#social-networks > li {
     display:inline;
-   }
+}
 
- 
-
-   #social-networks i {
+#social-networks i {
     font-size: 170%;
     padding: 5%;
     color: rgba(48, 20, 6, 0.904);
-
-
-
-   }
+}
