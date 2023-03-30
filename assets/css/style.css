@@ -196,10 +196,7 @@ body{
 #table {
     width: 85%;
     margin: 0 auto;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
     display:grid;
     border-collapse: collapse;
     border: double;
@@ -228,6 +225,7 @@ td, th {
 }
 
 /* Yoga picture 3 */
+
 #yogaouterthree {
     height: 600px;
     width: 130%;
