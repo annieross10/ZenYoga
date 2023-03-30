@@ -384,11 +384,6 @@ input[name="submit"]{
         display:inline;
     }
 
-    #yogastyles {
-        height:600px;
-        padding-top:50px;  
-    }
-
     #yogaimagethree {
         clear:none;
         padding:0;
@@ -402,12 +397,19 @@ input[name="submit"]{
         padding:0;
         margin: 0 auto;
         height:540px;
-        padding-bottom:70px;
-        
+        padding-bottom:70px;  
     }
+
     #cover-text-two {
         font-size: 100%;
         position:absolute;
+    }
+
+    #yogastyles {
+        clear:none;
+        margin:0 auto;
+        height:600px;
+        padding-top:100px;  
     }
 
     #signuptoday {
