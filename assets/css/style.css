@@ -420,11 +420,15 @@ input[name="submit"]{
     }
 
     #yogaouter {
-        height:400px
+        height:400px;
+        position:relative;
+        overflow:hidden;
     }
 
     #yogaimage {
-        height:400px
+        height:400px;
+        position: absolute;
+
     }
 
     #cover-text {
@@ -438,9 +442,9 @@ input[name="submit"]{
     
     #about {
         width:90%;
-        height:800px;
-        padding-top:80px;
-        position:relative
+        height:1000px;
+        padding-top:100px;
+        
 
     }
 
