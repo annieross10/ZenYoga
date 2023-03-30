@@ -432,12 +432,16 @@ input[name="submit"]{
         margin:0 auto;
         font-size: 100%;
         position:absolute;
+        height:50px;
+        width:100%;
+        font-size:90%;
     }
     
     #about {
         width:90%;
         height:800px;
-        padding-top:40px;
+        padding-top:80px;
+        position:relative;
     }
 
     #yogaclasses {
