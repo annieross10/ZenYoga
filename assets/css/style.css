@@ -376,7 +376,7 @@ input[name="submit"]{
 
     #clickhere {
         clear:none;
-        display:inline
+        display:inline;
     }
 
     #yogastyles {
@@ -400,7 +400,7 @@ input[name="submit"]{
     }
 
     #signup {
-        width:30%
+        width:30%;
     }
     
     #yogaimagefour {
@@ -428,7 +428,6 @@ input[name="submit"]{
     #yogaimage {
         height:400px;
         position: absolute;
-
     }
 
     #cover-text {
@@ -444,8 +443,6 @@ input[name="submit"]{
         width:90%;
         height:1000px;
         padding-top:100px;
-        
-
     }
 
     #yogaclasses {
@@ -479,7 +476,7 @@ input[name="submit"]{
 
     #yogaimagethree {
         clear:none;
-        height:100%px;
+        height:100%;
         padding:0;
         margin:0 auto; 
         position:absolute  
@@ -500,14 +497,14 @@ input[name="submit"]{
         height:800px;
         width: 90%;
         padding-left:10px;
-        padding-top:200px   ;
-        position:relative  
+        padding-top:200px;
+        position:relative; 
     }
 
     #signuptoday {
         width:180%;
         height:800px;
-        font-size: 80%;
+        font-size:80%;
     }
 
     #yogaimagefour {
