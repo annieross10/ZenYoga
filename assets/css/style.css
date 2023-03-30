@@ -357,8 +357,8 @@ input[name="submit"]{
 
 /* Media Queries */
 
-/* for larger or meduim size from 1000px*/
-@media screen and (max-width:1000px) {
+/* for larger or meduim size from 1200px*/
+@media screen and (max-width:1200px) {
     
     #about {
         width:80%;
@@ -408,7 +408,7 @@ input[name="submit"]{
     #yogastyles {
         clear:none;
         margin:0 auto;
-        height:600px;
+        height:900px;
         padding-top:100px;  
     }
 
