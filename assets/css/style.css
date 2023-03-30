@@ -199,7 +199,6 @@ body{
     padding: 25px;
     display:grid;
     border-collapse: collapse;
-    border: double;
 }
 
 th {
@@ -241,6 +240,28 @@ td, th {
     background: url('../images/yoga5.jpeg') no-repeat center center;
     position: absolute;
     background-size: 100%;
+}
+
+#cover-text-two, #cover-text-two h2{
+    color:rgb(247, 242, 239);
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 160%;
+    font-weight: 200;   
+}
+
+#cover-text-two { 
+    height: 90px;;
+    width: 100%;
+
+    padding-top: 20px;
+    padding-left:20px;
+    bottom: 0px;
+
+    background-color: rgba(58, 45, 8, 0.541);
+    animation-name: cover-text-slide;
+    animation-duration: 2s;
+    position: relative;
 }
 
 /* Yoga Styles */
@@ -410,12 +431,13 @@ input[name="submit"]{
         clear:both;
         margin:0 auto;
         font-size: 100%;
+        position:relative;
     }
     
     #about {
         width:90%;
         height:800px;
-        padding:0;
+        padding-top:40px;
     }
 
     #yogaclasses {
