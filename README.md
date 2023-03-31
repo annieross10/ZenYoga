@@ -19,3 +19,8 @@ The second landing page of the yoga studio website showcases a captivating photo
 This section aims to provide a concise and clear overview of the various types of yoga classes offered by ZenYoga, facilitating easy readability of information.
 #### Sign Up
 This is the sign-up page for users to input their contact information effortlessly. The layout is intentionally kept clear and simple, and is complemented by an image featuring the friendly faces of the ZenYoga team.
+### Features Left to Implement
+Gallery
+## Testing
+### Validator Testing
+### Unfixed Bugs
