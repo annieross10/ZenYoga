@@ -15,3 +15,7 @@ In this section, users can find a clear and concise schedule for the week's ZenY
 The footer section of ZenYoga's website provides convenient links to their relevant social media sites, which open in a new tab for seamless navigation. By utilizing the footer, users are encouraged to stay connected with ZenYoga through their social media platforms, adding value to their overall website experience.
 #### Second Landing Page Image
 The second landing page of the yoga studio website showcases a captivating photograph with overlaid text that conveys a clear message of inclusivity, emphasizing that yoga is for everyone. The combination of bold text and lively animation results in an attention-grabbing design, sure to captivate and engage users.
+#### Yoga Styles
+This section aims to provide a concise and clear overview of the various types of yoga classes offered by ZenYoga, facilitating easy readability of information.
+#### Sign Up
+This is the sign-up page for users to input their contact information effortlessly. The layout is intentionally kept clear and simple, and is complemented by an image featuring the friendly faces of the ZenYoga team.
