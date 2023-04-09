@@ -23,4 +23,9 @@ This is the sign-up page for users to input their contact information effortless
 Gallery
 ## Testing
 ### Validator Testing
-### Unfixed Bugs
+#### HTML
+No Errors were found when passing through the official W3C validator.
+#### CSS
+No Errors were found when passing though the official W3C validator.
+#### Accessibility 
+I confirmed that the colours and fonts chosen are easy to read and accessible by running them through Lighthouse in Devtools.
