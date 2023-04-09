@@ -22,6 +22,10 @@ This is the sign-up page for users to input their contact information effortless
 ### Features Left to Implement
 Gallery
 ## Testing
+I have tested the functionality of this page across multiple web browsers, including Chrome, Firefox, and Safari.
+After using the DevTools device toolbar, I have confirmed that this page is responsive, visually appealing, and fully functional on all standard screen sizes.
+I have verified that the main sections of the page - the navigation, about, timetable, yoga styles, and contact us - are all presented in a clear and understandable manner.
+I can confirm that the form on this page is fully functional. The form mandates entries in all fields and only accepts valid email addresses in the email field and the submit button also works.
 ### Validator Testing
 #### HTML
 No Errors were found when passing through the official W3C validator.
