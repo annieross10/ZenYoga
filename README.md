@@ -1,6 +1,8 @@
 # ZenYoga
 The ZenYoga website provides comprehensive information about a serene yoga studio located in the heart of Glasgow, Scotland. It caters to both experienced yogis and beginners, offering a detailed class schedule for the entire week and vivid descriptions and images of the peaceful surroundings.
 
+There is also a simple Contact Page where users can submit their name and email address if interested in signing up for the variety of yoga classes. 
+
 ![zenyoga mockup](/assets/images/screenshots/zenyoga-mockup.png)
 
 ## Features
@@ -59,6 +61,7 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 - I have tested the functionality of this page across multiple web browsers, including Chrome, Firefox, and Safari.
 - After using the DevTools device toolbar, I have confirmed that this page is responsive, visually appealing, and fully functional on all standard screen sizes.
 - I have verified that the main sections of the page - the navigation, about, timetable, yoga styles, and contact us - are all presented in a clear and understandable manner.
+- I have verified that the yoga timetable found on the first page is easily readable.
 - I can confirm that the form on this page is fully functional. The form mandates entries in all fields and only accepts valid email addresses in the email field and the submit button also works.
 
 ### Bugs
@@ -71,9 +74,9 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 ### Validator Testing
 
 #### HTML
-- No Errors were found when passing through the official W3C validator.
+- No Errors were found when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 #### CSS
-- No Errors were found when passing though the official W3C validator.
+- No Errors were found when passing though the official [W3C validator](https://jigsaw.w3.org/css-validator/)
 
 #### Accessibility 
  - I confirmed that the colours and fonts chosen are easy to read and accessible by running them through Lighthouse in Devtools.
@@ -84,11 +87,12 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 No unfixed bugs
 
 ## Deployment
-After preparing the site for deployment, the next step is to host it on GitHub pages. Follow these steps to deploy:
+After preparing the site for deployment, the next step was to host it on GitHub pages. I followed these steps to deploy:
 
-- Go to the Settings tab of your GitHub repository.
-- Under the source section, choose the Master Branch from the drop-down menu.
-- After selecting the master branch, the page will refresh and display a ribbon to confirm the successful deployment
+- Go to the Settings tab of the Github Repository.
+- Under the code and automation section, I navigate to the Pages section.
+- In Github Pages, I select the main branch to deploy the page.
+- After selecting the main branch, the page will refresh and display a link to confirm the successful deployment.
 
 The live link can be found here -  https://annieross10.github.io/ZenYoga/
 
