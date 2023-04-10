@@ -63,6 +63,8 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 
 ### Bugs
 #### Solved Bugs
+- While I tested the input form for the email, it did not intially request that it should be written in an email format. I fixed this by adding an email input type: <b> \<input type="email"> </b>
+- The social media links in the first page of the footer was initally not working. I then realised it was because I had missed <b> \</a> </b> after the link to the sign up section at the bottom of the timetable. 
 
 ### Validator Testing
 
