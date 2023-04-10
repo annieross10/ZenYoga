@@ -70,10 +70,24 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 - No Errors were found when passing through the official W3C validator.
 #### CSS
 - No Errors were found when passing though the official W3C validator.
+
 #### Accessibility 
-- I confirmed that the colours and fonts chosen are easy to read and accessible by running them through Lighthouse in Devtools.
+ - I confirmed that the colours and fonts chosen are easy to read and accessible by running them through Lighthouse in Devtools.
+
+![lighthouse in devtools](/assets/images/screenshots/zenyoga-lighthouse.png)
+
 ### Unfixed Bugs
 No unfixed bugs
+
+## Deployment
+After preparing the site for deployment, the next step is to host it on GitHub pages. Follow these steps to deploy:
+
+- Go to the Settings tab of your GitHub repository.
+- Under the source section, choose the Master Branch from the drop-down menu.
+- After selecting the master branch, the page will refresh and display a ribbon to confirm the successful deployment
+
+The live link can be found here -  https://annieross10.github.io/ZenYoga/
+
 ## Credits
 ### Content
 ### Media
