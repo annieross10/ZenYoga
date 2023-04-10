@@ -65,6 +65,8 @@ The ZenYoga website provides comprehensive information about a serene yoga studi
 #### Solved Bugs
 - While I tested the input form for the email, it did not intially request that it should be written in an email format. I fixed this by adding an email input type: <b> \<input type="email"> </b>
 - The social media links in the first page of the footer was initally not working. I then realised it was because I had missed <b> \</a> </b> after the link to the sign up section at the bottom of the timetable. 
+- The Poppins font that I found from Font Awesome initally did not work with Chrome or Firefox. This was fixed when I removed this tag <b> \<meta http-equiv="X-UA-Compatible" content="IE=edge"></b>
+- I had intially placed the <b>\<footer></b> element outside of the <b>\<body></b> element which caused some performace issues when I deployed the website. This was fixed when I realised the issue and placed the <b>\<footer></b> element inside of the <b>\<body></b> element.
 
 ### Validator Testing
 
@@ -92,5 +94,10 @@ The live link can be found here -  https://annieross10.github.io/ZenYoga/
 
 ## Credits
 ### Content
-### Media
-The images were taken from
+- The icons in the footer and links were taken from [Font Awesome](https://fontawesome.com/)
+- The font for the website was taken from [Google Fonts](https://fonts.google.com/)
+- The instructions to create keyframes for CSS was taken from [This Youtube Tutorial](https://www.youtube.com/watch?v=SgmNxE9lWcY&ab_channel=SlayingTheDragon)
+
+ ### Media
+- The image yogaimage is taken from [unsplash](https://unsplash.com/s/photos/yoga-studio)
+- The images yogaimagetwo, yogaeimagethree and yogaimagefour were taken from [Pexels](https://www.pexels.com/)
