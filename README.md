@@ -15,7 +15,7 @@ There is also a simple Contact Page where users can submit their name and email 
 
 #### Landing Page Image
 - The landing page features a photograph with overlaid text, providing a clear overview of the website's offerings - yoga. 
-- This section is designed to introduce users to ZenYoga and grab their attention with an eye-catching animation.
+- This section is designed to introduce users to ZenYoga and grab their attention with an eye-catching cover-message.
 
 ![zenyoga landing page image](/assets/images/screenshots/zenyoga-firstpage.png)
 
@@ -39,7 +39,7 @@ There is also a simple Contact Page where users can submit their name and email 
 
 #### Second Landing Page Image
 - The second landing page of the yoga studio website showcases a captivating photograph with overlaid text that conveys a clear message of inclusivity, emphasizing that yoga is for everyone. 
-- The combination of bold text and lively animation results in an attention-grabbing design, sure to captivate and engage users.
+- The bold text results in an attention-grabbing design, sure to captivate and engage users.
 
 ![zenyoga second landing page image](/assets/images/screenshots/zenyoga-secondpage.png)
 
